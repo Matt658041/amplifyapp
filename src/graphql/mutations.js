@@ -1,12 +1,12 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const createNOte = /* GraphQL */ `
-  mutation CreateNOte(
-    $input: CreateNOteInput!
-    $condition: ModelNOteConditionInput
+export const createNote = /* GraphQL */ `
+  mutation CreateNote(
+    $input: CreateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    createNOte(input: $input, condition: $condition) {
+    createNote(input: $input, condition: $condition) {
       id
       name
       description
@@ -15,12 +15,12 @@ export const createNOte = /* GraphQL */ `
     }
   }
 `;
-export const updateNOte = /* GraphQL */ `
-  mutation UpdateNOte(
-    $input: UpdateNOteInput!
-    $condition: ModelNOteConditionInput
+export const updateNote = /* GraphQL */ `
+  mutation UpdateNote(
+    $input: UpdateNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    updateNOte(input: $input, condition: $condition) {
+    updateNote(input: $input, condition: $condition) {
       id
       name
       description
@@ -29,12 +29,12 @@ export const updateNOte = /* GraphQL */ `
     }
   }
 `;
-export const deleteNOte = /* GraphQL */ `
-  mutation DeleteNOte(
-    $input: DeleteNOteInput!
-    $condition: ModelNOteConditionInput
+export const deleteNote = /* GraphQL */ `
+  mutation DeleteNote(
+    $input: DeleteNoteInput!
+    $condition: ModelNoteConditionInput
   ) {
-    deleteNOte(input: $input, condition: $condition) {
+    deleteNote(input: $input, condition: $condition) {
       id
       name
       description
